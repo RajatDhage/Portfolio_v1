@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/d9e0d287e3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/"> Portfolio </a>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="firstSection">
+
+            <div class="leftSection">
+                Hi, my name is <span class="name">Rajat</span>
+                <div>and I am passionate <!--<div>Web Developer</div>-->
+                </div>
+                <span id="element">Hello</span>
+            </div>
+
+            <div class="rightSection">
+                <img src="Images/Developer_bg.webp" alt="Developer Background">
+            </div>
+
+        </section>
+
+        <div id="projects" class="myProject">My Projects</div>
+
+        <div class="projects">
+            <div class="project-1">
+                <div class="project1-title">Spotify</div>
+                <a href="https://rajatdhage.github.io/SpotifyClone/" target="_main"><img src="Images/spotify.png"
+                        alt="spotify"></a>
+                <div class="para">Listen to your favourite songs here at anytime!!</div>
+            </div>
+
+            <div class="project-2">
+                <div class="project2-title">tinDog</div>
+                <a href="https://rajatdhage.github.io/tinDog/" target="_main"><img src="Images/tindog_logo.jpg"
+                        alt="spotify"></a>
+                <div class="para">Find the True Love of Your Dog's Life Today.</div>
+            </div>
+
+            <div class="project-3">
+                <div class="project3-title">DiceeG</div>
+                <a href="https://rajatdhage.github.io/tinDog/" target="_main"><img src="Images/Dicee_image.png"
+                        alt="spotify"></a>
+                <div class="para">Roll the dice and test your luck in the Dicee Game! Can you win big?</div>
+            </div>
+        </div>
+
+        <div id="About" class="about">
+
+            <h1>Get in touch</h1>
+            
+            <p> Hello, I'm Rajat, a motivated third-year student who is passionate about coding and finding creative solutions to complex problems. Welcome to my digital space, where I share my journey and showcase my work as a budding developer.</p>
+
+            <button class="btn-about">Learn More</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="left-box">
+                <h2>Address</h2>
+                <div class="line"></div>
+                <div class="content">
+                    <div class="place">
+                        <span class="fa-solid fa-location-dot"></span>
+                        <span class="text"> B/106,Casa Green,Kondhwa-Katraj Road, Pune-411048.</span>
+                    </div>
+                    <div class="phone">
+                        <span class="fa-solid fa-phone"></span>
+                        <span class="text">+91-8999348727</span>
+                    </div>
+                    <div class="email">
+                        <span class="fa-solid fa-envelope"></span>
+                        <span class="text"> rajatdhage04@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-box">
+                <h2>Contact me</h2>
+                <div class="line"></div>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Email *</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Message *</div>
+                            <textarea cols="25" rows="2" required></textarea>
+                        </div>
+                        <button id="btn"> Submit</button>
+                    </form>
+                </div>
+            </div>
+            <!-- <div class="footer-first">
+                <a href="https://www.facebook.com/" target="_main"><i class="fa-brands fa-facebook"></i></a>
+
+                <a href="https://www.instagram.com/" target="_main"><i class="fa-brands fa-instagram"></i></a>
+
+                <a href="https://www.linkedin.com/" target="_main"><i class="fa-brands fa-linkedin"></i></a>
+
+                <a href="https://www.twitter.com/" target="_main"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-second">
+            <h4>Made with <i class="fa-solid fa-heart" style="color: #f00000;"></i> by Rajat</h4>
+        </div> -->
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Student', 'Web Developer', 'Problem Solver', 'Web Designer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
